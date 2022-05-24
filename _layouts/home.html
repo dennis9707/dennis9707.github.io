@@ -2,6 +2,24 @@
 layout: default
 home: true
 ---
+<div>
+{{ "## At the begining"
+ | markdownify }}
+
+ {{ "My name is Junda He. Currently I am a research engineer from the Singapore Management University and also
+ a PhD candidate under the supervision of Prof. [David Lo](http://www.mysmu.edu/faculty/davidlo/#:~:text=David%20Lo%20is%20a%20Professor,Analytics%20Research%20(SOAR)%20group.).
+
+To be honest, I don't like to introduce myself with the previous paragraph, it bords me and probably also boreds you. Let's try again and be more personal and narrative.
+My name is Junda, but my old friends also call me *Dennis*.  In fact, this is the name that I have extensived used during the past ten years, but **not anymore**. It's common for Chinese to have a English name, but one day I questionsed myself: why do I need another name when I already have one since I was born?
+Thus, I embraced with my original name again. And I really like it, which builds me a better image and adds more uniqueness.
+
+ I created this website as my personal blog for hosting my posts and thoughts on 21 Oct 2020 and I revisited this site on 25 May 2022. My initial indention of the revision is to abandon this blog and save the url for hosting my personal website.
+ However, I have changed my mind after I have read through this deserted site. I would keep this place personal and am planning constantly update it with my thoughts, feelings and ideas. Anyway, if you would like to know more about me, go head to the
+ [about](/about) page. Thank you very much for reading up until this point and don't hesitate to contact me if you are interested in my research areas. I am open to any kinds of collaboration and discussion."
+
+  | markdownify }}
+
+</div>
 
 <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
 {%- for post in site.posts limit: site.number_of_posts -%}

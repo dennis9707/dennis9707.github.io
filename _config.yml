@@ -3,21 +3,21 @@ title: Dennis National Association # site title
 description: >- # site description
   I am writing my story here.
 lang: en-US # default lang
-timezone: Asia/Beijing # set your timezone
+timezone: Asia/Singapore # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/dennis9707 # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Junda He # author name
+  name: Junda He (何俊达) # author name
   bio: >-
-    Welcome to my personal blog!
+    Welcome to my blog!
   username: Find_me_if_you_can # general username
   github: dennis9707 # github username
   twitter: Find_me_if_you_can # twitter username
   facebook: dennis he # facebook username
-  email: ucabjh5@ucl.ac.uk # email adress
+  email: jundahe@smu.edu.sg # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
